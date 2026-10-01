@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Key Player Group — Veteran-owned unmanned systems</title>
+  <meta name="description" content="Key Player Group LLC is a veteran-owned Florida company building toward NDAA-aligned unmanned aircraft systems for federal buyers. Component traceability, capture support, and disciplined delivery.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%2314181c'/%3E%3Cpath d='M8 22V10h3.2l4.8 7.4L20.8 10H24v12h-2.4v-7.2L17.4 22h-2.8l-4.2-7.2V22z' fill='%23c4a36a'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --ink: #14181c;
+      --ink-2: #2a3138;
+      --paper: #f3efe6;
+      --paper-2: #e7e1d4;
+      --brass: #b8924a;
+      --brass-2: #d7c29a;
+      --line: rgba(20,24,28,.14);
+      --muted: #5c656e;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      background: var(--paper);
+      color: var(--ink);
+      font-family: "IBM Plex Sans", sans-serif;
+      font-size: 17px;
+      line-height: 1.55;
+    }
+    a { color: inherit; }
+    .nav {
+      position: sticky; top: 0; z-index: 10;
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 18px 7vw;
+      background: rgba(243,239,230,.92);
+      backdrop-filter: blur(10px);
+      border-bottom: 1px solid var(--line);
+    }
+    .mark { display: flex; align-items: center; gap: 12px; text-decoration: none; }
+    .mark svg { display: block; }
+    .mark span { font-size: 13px; letter-spacing: .16em; font-weight: 600; }
+    .nav a.item { text-decoration: none; font-size: 13px; letter-spacing: .08em; text-transform: uppercase; margin-left: 28px; color: var(--ink-2); }
+    .hero { padding: 8vh 7vw 7vh; display: grid; grid-template-columns: 1.4fr .8fr; gap: 48px; align-items: end; border-bottom: 1px solid var(--line); }
+    .kicker { letter-spacing: .22em; text-transform: uppercase; font-size: 12px; color: var(--brass); font-weight: 600; margin: 0 0 18px; }
+    h1 { font-family: Newsreader, serif; font-weight: 400; font-size: clamp(42px, 6vw, 78px); line-height: .95; margin: 0 0 22px; letter-spacing: -0.02em; }
+    .lede { font-size: 19px; max-width: 38rem; color: var(--ink-2); margin: 0 0 28px; }
+    .actions { display: flex; gap: 14px; flex-wrap: wrap; }
+    .btn { display: inline-block; text-decoration: none; padding: 12px 18px; font-size: 13px; letter-spacing: .12em; text-transform: uppercase; border: 1px solid var(--ink); }
+    .btn.solid { background: var(--ink); color: var(--paper); }
+    .plate {
+      border: 1px solid var(--line); padding: 22px 22px 8px; background: #efeadd;
+    }
+    .plate p { margin: 0 0 16px; font-size: 14px; }
+    .plate strong { display: block; font-size: 12px; letter-spacing: .14em; text-transform: uppercase; margin-bottom: 4px; }
+    section { padding: 72px 7vw; }
+    section.alt { background: var(--ink); color: var(--paper); }
+    h2 { font-family: Newsreader, serif; font-weight: 400; font-size: clamp(32px, 4vw, 48px); margin: 0 0 12px; letter-spacing: -0.02em; }
+    .sub { color: var(--muted); max-width: 40rem; margin: 0 0 36px; }
+    .alt .sub { color: #b7c0c7; }
+    .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; }
+    .card { border-top: 1px solid var(--brass); padding-top: 16px; }
+    .card h3 { margin: 0 0 8px; font-size: 16px; letter-spacing: .04em; text-transform: uppercase; font-weight: 600; }
+    .card p { margin: 0; color: var(--ink-2); }
+    .alt .card { border-top-color: var(--brass-2); }
+    .alt .card p { color: #d5dbe0; }
+    .steps { display: grid; grid-template-columns: 80px 1fr; gap: 8px 18px; max-width: 44rem; }
+    .num { font-family: Newsreader, serif; font-size: 28px; color: var(--brass); }
+    .note { font-size: 13px; color: var(--muted); margin-top: 28px; }
+    .alt .note { color: #9aa4ac; }
+    footer { padding: 28px 7vw 40px; border-top: 1px solid var(--line); display: flex; justify-content: space-between; gap: 18px; font-size: 13px; color: var(--muted); }
+    @media (max-width: 860px) {
+      .hero, .grid { grid-template-columns: 1fr; }
+      .nav a.item { display: none; }
+      footer { flex-direction: column; }
+    }
+  </style>
+</head>
+<body>
+  <nav class="nav">
+    <a class="mark" href="#top">
+      <svg width="28" height="28" viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" fill="#14181c"/><path d="M8 22V10h3.2l4.8 7.4L20.8 10H24v12h-2.4v-7.2L17.4 22h-2.8l-4.2-7.2V22z" fill="#c4a36a"/></svg>
+      <span>KEY PLAYER GROUP</span>
+    </a>
+    <div>
+      <a class="item" href="#work">Work</a>
+      <a class="item" href="#standard">Standard</a>
+      <a class="item" href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <header class="hero" id="top">
+    <div>
+      <p class="kicker">Veteran-owned · West Palm Beach</p>
+      <h1>Systems a contracting officer can trace.</h1>
+      <p class="lede">Key Player Group builds toward NDAA-aligned unmanned aircraft for federal buyers. Provenance of the parts. Clarity of the proposal. No hidden supply chain.</p>
+      <div class="actions">
+        <a class="btn solid" href="#contact">Request a briefing</a>
+        <a class="btn" href="#work">What we do</a>
+      </div>
+    </div>
+    <aside class="plate">
+      <p><strong>Entity</strong>Key Player Group LLC · Florida</p>
+      <p><strong>Principal</strong>Jaquaris D. Brown, Chief Executive Officer<br>U.S. Air Force veteran</p>
+      <p><strong>Posture</strong>SAM.gov registration and SDVOSB certification in process. Not represented as awarded until issued.</p>
+      <p><strong>Focus</strong>Unmanned systems. Component traceability. Federal capture support.</p>
+    </aside>
+  </header>
+
+  <section id="work">
+    <p class="kicker">Practice</p>
+    <h2>Built for the buyer who has to defend the file.</h2>
+    <p class="sub">Photographs of airframes and field work will follow. The work itself is the supply chain, the paper, and the system that can survive a review.</p>
+    <div class="grid">
+      <article class="card">
+        <h3>01 — Unmanned systems</h3>
+        <p>Small unmanned aircraft aimed at government use, designed around domestic and allied components rather than a bill of materials that fails a country-of-origin check.</p>
+      </article>
+      <article class="card">
+        <h3>02 — Traceability</h3>
+        <p>Flight controller, motors, power, radio, camera, and battery treated as a provenance problem. BlueUAS is the standard we are building toward. It is not a listing we claim.</p>
+      </article>
+      <article class="card">
+        <h3>03 — Capture</h3>
+        <p>SBIR and STTR pathways, proposal structure, and the compliance record a program office expects from a new vendor. Straight answers on what is certified and what is still in process.</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="alt" id="standard">
+    <p class="kicker">How a requirement moves</p>
+    <h2>Four gates. No theater.</h2>
+    <div class="steps">
+      <div class="num">01</div><p>The requirement is written down: mission, airframe class, data path, and the clause that will kill a non-compliant part.</p>
+      <div class="num">02</div><p>The bill of materials is checked against NDAA country-of-origin limits before a prototype is promised.</p>
+      <div class="num">03</div><p>The package is built for the vehicle that fits: a grant, a pilot, or a direct federal buy. Status of SAM and SDVOSB is stated as it is.</p>
+      <div class="num">04</div><p>Delivery stays inside the record. If a part cannot be traced, it does not ship under our name.</p>
+    </div>
+    <p class="note">Key Player Group is veteran-owned. Service-disabled veteran-owned small business certification and SAM.gov registration are in process. This site is not a certification, a BlueUAS listing, or an offer of a specific airframe.</p>
+  </section>
+
+  <section id="contact">
+    <p class="kicker">Contact</p>
+    <h2>Brief the requirement.</h2>
+    <p class="sub">Federal, state, and prime-contractor inquiries. West Palm Beach, Florida. Photographs and a technical appendix will be added as the first systems are ready to show.</p>
+    <p><a class="btn solid" href="mailto:jaquarisbrown@gmail.com?subject=Key%20Player%20Group%20briefing">jaquarisbrown@gmail.com</a></p>
+    <p class="note">Company mail at info@keyplayergroup.com will replace this inbox once the domain mailbox is live.</p>
+  </section>
+
+  <footer>
+    <div>© 2026 Key Player Group LLC. All rights reserved.</div>
+    <div>West Palm Beach, Florida · keyplayergroup.com</div>
+  </footer>
+</body>
+</html>
